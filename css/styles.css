@@ -11,8 +11,9 @@
   display: block;
   text-align: center;
   margin: 0 auto;
-  padding-top: 43px;
+  padding-top: 37px;
 }
+
 .header {
   text-align: center;
   width: 1110px;
@@ -49,6 +50,7 @@
 .navigation {
   float: right;
   height: 23px;
+  margin-top: 5px;
 }
 
 .list {
@@ -233,8 +235,14 @@
   float: left;
   width: 347px;
   text-align: left;
-  margin: 0px;
-  padding: 0px;
+  margin-right: 30px;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+}
+
+.cards_news:nth-child(3) {
+  margin-right: 0;
+  margin-bottom: 0px;
 }
 
 .text_news {
@@ -242,23 +250,24 @@
   font-weight: 600;
   font-size: 13px;
   color: #555252;
-  margin-bottom: 12px;
+  margin-bottom: 27px;
   padding-top: 12px;
 }
 
-.line3 {
+.text_news:nth-child(even):after {
+  content: "";
   display: inline-block;
   border: none;
   background-color: #1abc9c;
-  margin-bottom: 28px;
+  margin-bottom: 0;
   width: 136px;
   height: 3px;
-  text-align: center;
+  text-align: left;
 }
 
 .text_news:nth-child(n + 4) {
   font-family: "Open Sans", sans-serif;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 11px;
   color: #555252;
   text-align: justify;
