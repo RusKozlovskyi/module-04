@@ -132,6 +132,14 @@
   height: 282px;
 }
 
+.card:hover > .card_name {
+  color: #1abc9c;
+}
+
+.card:hover > .card_price {
+  color: #7fd9c7;
+}
+
 .card {
   list-style-type: none;
   float: left;
@@ -183,14 +191,6 @@
 .link_name {
   color: #ffffff;
   text-decoration: none;
-}
-
-.card_content:hover > .card_name {
-  background-color: #1abc9c;
-}
-
-.card_content:hover > .card_price {
-  background-color: #7fd9c7;
 }
 
 .card_price {
