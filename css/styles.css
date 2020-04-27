@@ -129,11 +129,11 @@
   height: 282px;
 }
 
-.card:hover.card_name {
+.card:hover .card_name {
   background-color: #1abc9c;
 }
 
-.card:hover.card_price {
+.card:hover .card_price {
   background-color: #7fd9c7;
 }
 
