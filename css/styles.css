@@ -102,7 +102,9 @@
 
 .fprod::after {
   content: "";
-  display: inline-block;
+  display: block;
+  margin: 0px auto;
+  margin-top: 25px;
   border: none;
   background-color: #1abc9c;
   height: 7px;
@@ -127,12 +129,12 @@
   height: 282px;
 }
 
-.card:hover > .card_name {
-  color: #1abc9c;
+.card:hover.card_name {
+  background-color: #1abc9c;
 }
 
-.card:hover > .card_price {
-  color: #7fd9c7;
+.card:hover.card_price {
+  background-color: #7fd9c7;
 }
 
 .card {
@@ -212,7 +214,9 @@
 
 .latest_news::after {
   content: "";
-  display: inline-block;
+  display: block;
+  margin: 0px auto;
+  margin-top: 25px;
   border: none;
   background-color: #1abc9c;
   height: 7px;
@@ -251,10 +255,13 @@
 
 .text_news:nth-child(even):after {
   content: "";
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+  margin-bottom: 0;
+  margin-left: 0;
   border: none;
   background-color: #1abc9c;
-  margin-bottom: 0;
   width: 136px;
   height: 3px;
   text-align: left;
